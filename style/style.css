@@ -1,0 +1,354 @@
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/roboto-slab-v20-latin.woff2") format("woff2"),
+    url("../fonts/roboto-slab-v20-latin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-vietnamese_latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/montserrat-v14-vietnamese_latin-regular.woff") format("woff");
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 138px;
+
+  background: #1a1915 url("../images/hero-mobile.jpg") no-repeat center / cover;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.authorization {
+  text-align: center;
+}
+
+.authorization-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fff;
+  border: solid 2px rgba(255, 255, 255, 0);
+  border-radius: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 90px;
+}
+
+.authorization-btn:hover {
+  border: solid 2px rgba(255, 255, 255, 1);
+}
+
+.logo {
+  display: block;
+  margin-top: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.header-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.header-description-text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #fff;
+  margin-top: 14px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.header-btn-link,
+.section-btn-link {
+  display: block;
+  width: 280px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.header-btn-link {
+  color: #fff;
+  background-color: #ff4e50;
+  margin: 18px auto 0;
+}
+
+.section-btn-link {
+  border: 2px solid #ff4e50;
+  color: #ff4e50;
+  margin: 28px auto 0;
+}
+
+.section-btn-link:hover {
+  color: #fff;
+  background-color: #ff4e50;
+  transition: linear;
+  transition-duration: 0.2s;
+}
+.partner-section {
+  padding-bottom: 56px;
+}
+
+.partner-section-description-text {
+  margin-top: 72px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.partner-card-list-item + .partner-card-list-item {
+  margin-top: 30px;
+}
+
+.partner-card-img-wrapper {
+  width: 122px;
+  height: 122px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.partner-card-img-wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  width: 34px;
+  height: 34px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.icon-tv::after {
+  background: #ff4e50 url("../images/Bradley-icon.png") no-repeat center;
+}
+
+.icon-beaker::after {
+  background: #ffa507 url("../images/Walker-icon.png") no-repeat center;
+}
+
+.icon-cap::after {
+  background: #1cd7ad url("../images/Lucas-icon.png") no-repeat center;
+}
+
+.icon-telegram::after {
+  background: #4e73db url("../images/Hunter-icon.png") no-repeat center;
+}
+
+.partner-photo-img {
+  border-radius: 50%;
+}
+
+.partner-card-title {
+  margin-top: 22px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.partner-card-description-text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-top: 38px;
+    padding-bottom: 234px;
+    background-image: #1a1915 url("../images/hero-tablet.jpg");
+  }
+
+  .container {
+    max-width: 748px;
+  }
+
+  .header-nav-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 36px;
+  }
+
+  .logo {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .header-title {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-top: 148px;
+  }
+
+  .header-title-text {
+    display: block;
+  }
+
+  .header-description-text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 40px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .header-btn-link {
+    margin-top: 34px;
+    width: 226px;
+  }
+
+  .partner-section {
+    padding-bottom: 40px;
+  }
+
+  .section-btn-link {
+    margin-top: 38px;
+    width: 192px;
+  }
+
+  .partner-section-description-text {
+    margin-top: 74px;
+    margin-bottom: 34px;
+  }
+
+  .partner-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+
+  .partner-card-list-item {
+    width: 236px;
+  }
+
+  .partner-card-list-item:nth-last-child(-n + 3) {
+    margin-top: 0;
+  }
+
+  .partner-card-list-item:first-child {
+    order: -2;
+  }
+
+  .partner-card-list-item:nth-child(3) {
+    order: -1;
+  }
+
+  .partner-card-list-item:nth-child(even) {
+    margin-top: 58px;
+  }
+
+  .partner-card-description-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 960px) {
+  .header {
+    background-image: #1a1915 url("../images/hero.jpg");
+  }
+
+  .container {
+    max-width: 65.27%;
+  }
+
+  .header-nav-menu {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .authorization-btn {
+    cursor: pointer;
+  }
+
+  .partner-section-description-text {
+    margin-top: 72px;
+  }
+
+  .partner-card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .partner-card-list-item {
+    width: 220px;
+  }
+
+  .partner-card-list-item:nth-child(even) {
+    margin-top: 0;
+  }
+
+  .partner-card-description-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .partner-section {
+    padding-bottom: 72px;
+  }
+}
