@@ -30,7 +30,7 @@
   padding-top: 20px;
   padding-bottom: 138px;
 
-  background: #1a1915 url("../images/hero-mobile.jpg") no-repeat center / cover;
+  background: #1a1915 url("../images/hero-mobile.png") no-repeat center / cover;
 }
 
 .container {
@@ -212,7 +212,8 @@
   .header {
     padding-top: 38px;
     padding-bottom: 234px;
-    background-image: #1a1915 url("../images/hero-tablet.jpg");
+    background: #1a1915 url("../images/hero-tablet.png") no-repeat center /
+      cover;
   }
 
   .container {
@@ -274,7 +275,7 @@
   .partner-card-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 128px;
     padding-right: 128px;
   }
@@ -307,7 +308,7 @@
 
 @media (min-width: 960px) {
   .header {
-    background-image: #1a1915 url("../images/hero.jpg");
+    background: #1a1915 url("../images/hero.png") no-repeat center / cover;
   }
 
   .container {
@@ -330,7 +331,7 @@
   .partner-card-list {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 0;
     padding-right: 0;
   }
